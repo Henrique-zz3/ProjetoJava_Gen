@@ -17,7 +17,7 @@ public class exComp2_AreaCirc {
 		
 		area = pi * (raio*raio);
 		
-		System.out.print("O valor da área é: " + area );
+		System.out.printf("O valor da área é: %.4f", area );
 		
 		read.close();
 		

@@ -7,12 +7,12 @@ public class ExComp4_Troco {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		float valor, nota100, nota50, nota20, nota10, nota5, nota2, nota1;
+		int valor, nota100, nota50, nota20, nota10, nota5, nota2, nota1;
 		
 		Scanner read = new Scanner(System.in);
 		
 		System.out.print("Digite o valor: ");
-		valor = read.nextFloat();
+		valor = read.nextInt();
 		
 		nota100 = valor/100;
 		valor %= 100;
@@ -35,19 +35,19 @@ public class ExComp4_Troco {
 		nota1 = valor/1;
 		valor %= 1;
 		
-		System.out.printf("%f nota(s) de R$ 100,00\n", nota100);
+		System.out.printf("%d nota(s) de R$ 100,00\n", nota100);
 		
-		System.out.printf("%f nota(s) de R$ 50,00\n", nota50);
+		System.out.printf("%d nota(s) de R$ 50,00\n", nota50);
 		
-		System.out.printf("%f nota(s) de R$ 20,00\n", nota20);
+		System.out.printf("%d nota(s) de R$ 20,00\n", nota20);
 		
-		System.out.printf("%f nota(s) de R$ 10,00\n", nota10);
+		System.out.printf("%d nota(s) de R$ 10,00\n", nota10);
 		
-		System.out.printf("%f nota(s) de R$ 5,00\n", nota5);
+		System.out.printf("%d nota(s) de R$ 5,00\n", nota5);
 		
-		System.out.printf("%f nota(s) de R$ 2,00\n", nota2);
+		System.out.printf("%d nota(s) de R$ 2,00\n", nota2);
 		
-		System.out.printf("%f nota(s) de R$ 1,00\n", nota1);
+		System.out.printf("%d nota(s) de R$ 1,00\n", nota1);
 		
 		read.close();
 		
