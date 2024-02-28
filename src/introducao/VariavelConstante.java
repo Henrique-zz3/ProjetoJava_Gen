@@ -10,9 +10,11 @@ public class VariavelConstante {
 		String palavras = "Generation Brasil"; // lógico true\false
 		
 		// Constantes
-		final int QUANTIDADE;
-		String TURMA;
-		double AREA;
+		final int QUANTIDADE = 1;
+		String TURMA = "Gen73";
+		double AREA = 2;
+		
+		System.out.printf("Não sei oq" + divisor + preco + resposta +  palavras + QUANTIDADE + TURMA + AREA);
 	}
 
 }

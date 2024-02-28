@@ -25,6 +25,8 @@ public class interativo {
 			System.out.print("X menor que Y");
 		}
 		
+		read.close();
+		
 	}
 
 }
