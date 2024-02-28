@@ -91,7 +91,6 @@ public class Ex4While_Dados {
 				
 			}
 				
-			
 			System.out.println("Digite o número refente ao setor de dev:\n1 - Backend\n2 - Frontend\n3 - Mobile\n4 - FullStack");
 			dev = read.nextInt();
 			
@@ -130,7 +129,8 @@ public class Ex4While_Dados {
 			
 			i++;
 			
-			System.out.println("Deseja continuar a leitura de dados? (S/N)\n");
+			System.out.println("Deseja continuar a leitura de dados? (S/N)");
+			read.skip("\\R");
 			add = read.nextLine();
 
 			
@@ -146,8 +146,9 @@ public class Ex4While_Dados {
 		System.out.println("O número total de pessoas que responderam à pesquisa:" + i);
 		System.out.println("A média de idade das pessoas que responderam à pesquisa:" + media);
 		
-		//read.close();
+		read.close();
 		
 	}
 
 }
+
