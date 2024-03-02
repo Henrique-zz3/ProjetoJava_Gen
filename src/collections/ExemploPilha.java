@@ -17,7 +17,9 @@ public class ExemploPilha {
 		System.out.println("\nElementos da Pilha: " + pilha);
 
 		System.out.println("\nRetirar elemento: " + pilha.pop());
-		
+				
+		System.out.println("\nElementos da Pilha: " + pilha);
+
 	}
 
 }
