@@ -1,16 +1,16 @@
 package collections;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.Scanner;
 
-public class Ex2ArrayList {
+public class Ex4SetEncontrar {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		int numero;
-		List<Integer> num1 = new ArrayList<Integer>();
+		Set<Integer> num1 = new HashSet<Integer>();
 		Scanner read = new Scanner(System.in);
 		
 		num1.add(2);
@@ -29,9 +29,9 @@ public class Ex2ArrayList {
 		
 		// Mostra se uma determinada nota existe na lista
 		if(num1.contains(numero)) {
-			System.out.println("O numero"+ numero +" está localizado na posição "+ num1.indexOf(numero));
+			System.out.println("O numero "+ numero +" foi encontrado");
 		}else {
-			System.out.println("O numero"+ numero +" não foi encontrado");
+			System.out.println("O numero "+ numero +" não foi encontrado");
 		}
 		
 		read.close();

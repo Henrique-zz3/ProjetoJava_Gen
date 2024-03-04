@@ -29,6 +29,9 @@ public class ExemploArrayList {
 		 */
 		System.out.println("\nNotas cadastradas: " + notas);
 		
+		// Mostra se uma determinada nota existe na lista
+		System.out.println("\nA nota 5 existe na lista? " + notas.contains(5d));
+		
 		/**
 		 * Mostra a posição (indice) de uma determinada nota. 
 		 * Caso existam 2 notas iguais será exibida a posição da primeira nota encontrada.
